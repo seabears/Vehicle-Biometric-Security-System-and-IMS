@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:orientation="horizontal">
+
+    <!-- Device ID -->
+    <TextView
+        android:id="@+id/deviceIdTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="Device ID"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:padding="4dp" />
+
+    <!-- Car Model -->
+    <TextView
+        android:id="@+id/carModelTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="Car Model"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:padding="4dp" />
+
+    <!-- Car Number -->
+    <TextView
+        android:id="@+id/carNumberTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="Car Number"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:padding="4dp" />
+
+    <!-- Paired Status -->
+    <ImageView
+        android:id="@+id/pairedImage"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:src="@drawable/bluetooth" />
+
+    <!-- Paired Status -->
+    <TextView
+        android:id="@+id/unpairedTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text=""
+        android:textSize="12sp"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:padding="4dp" />
+</LinearLayout>

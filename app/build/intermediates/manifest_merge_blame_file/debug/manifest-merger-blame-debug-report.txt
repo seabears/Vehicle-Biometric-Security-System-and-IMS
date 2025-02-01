@@ -1,0 +1,516 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.capstone_project"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="31"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:5:5-77
+11-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:5:22-74
+12
+13    <!-- 인터넷 사용 권한 추가 -->
+14    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+14-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:8:5-76
+14-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:8:22-73
+15    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+15-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:9:5-78
+15-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:9:22-75
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:10:5-67
+16-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+17-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:11:5-72
+17-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:11:22-69
+18    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+18-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:13:5-73
+18-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:13:22-70
+19    <uses-permission android:name="android.permission.BLUETOOTH" />
+19-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:14:5-68
+19-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:14:22-65
+20    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+20-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:15:5-74
+20-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:15:22-71
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:16:5-81
+21-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:16:22-78
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:17:5-79
+22-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:17:22-76
+23    <uses-permission android:name="android.permission.BLUETOOTH" />
+23-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:14:5-68
+23-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:14:22-65
+24    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+24-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:15:5-74
+24-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:15:22-71
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:22:5-79
+25-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:22:22-76
+26    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:24:5-68
+26-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:24:22-65
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:26:5-82
+27-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:26:22-79
+28    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+28-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:25:5-79
+28-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:25:22-76
+29    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+29-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:26:5-88
+29-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:26:22-85
+30    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+30-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:27:5-82
+30-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:27:22-79
+31    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- suppress DeprecatedClassUsageInspection -->
+31-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:5-110
+31-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:22-107
+32    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+32-->[androidx.biometric:biometric:1.4.0-alpha02] C:\Users\terra\.gradle\caches\transforms-3\5c2e3cb8a7cb4330b15a10f39d40bac1\transformed\biometric-1.4.0-alpha02\AndroidManifest.xml:25:5-74
+32-->[androidx.biometric:biometric:1.4.0-alpha02] C:\Users\terra\.gradle\caches\transforms-3\5c2e3cb8a7cb4330b15a10f39d40bac1\transformed\biometric-1.4.0-alpha02\AndroidManifest.xml:25:22-71
+33
+34    <permission
+34-->[androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+35        android:name="com.example.capstone_project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="com.example.capstone_project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+39
+40    <supports-screens
+40-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:11:5-14:40
+41        android:anyDensity="true"
+41-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:12:9-34
+42        android:largeScreens="true"
+42-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:13:9-36
+43        android:normalScreens="true" />
+43-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:14:9-37
+44
+45    <uses-feature
+45-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:16:5-18:36
+46        android:name="android.hardware.location.network"
+46-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:17:9-57
+47        android:required="false" />
+47-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:18:9-33
+48    <uses-feature
+48-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:19:5-21:36
+49        android:name="android.hardware.location.gps"
+49-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:20:9-53
+50        android:required="false" />
+50-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:21:9-33
+51    <uses-feature
+51-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:22:5-24:36
+52        android:name="android.hardware.telephony"
+52-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:23:9-50
+53        android:required="false" />
+53-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:24:9-33
+54    <uses-feature
+54-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:25:5-27:36
+55        android:name="android.hardware.wifi"
+55-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:26:9-45
+56        android:required="false" />
+56-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:27:9-33
+57
+58    <application
+58-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:24:5-82:19
+59        android:allowBackup="true"
+59-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:27:9-35
+60        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+60-->[androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+61        android:dataExtractionRules="@xml/data_extraction_rules"
+61-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:28:9-65
+62        android:debuggable="true"
+63        android:extractNativeLibs="false"
+64        android:fullBackupContent="@xml/backup_rules"
+64-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:29:9-54
+65        android:icon="@drawable/app_logo"
+65-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:30:9-42
+66        android:label="@string/app_name"
+66-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:31:9-41
+67        android:networkSecurityConfig="@xml/network_security_config"
+67-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:25:9-69
+68        android:roundIcon="@mipmap/ic_launcher_round"
+68-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:32:9-54
+69        android:supportsRtl="true"
+69-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:33:9-35
+70        android:testOnly="true"
+71        android:theme="@style/Theme.Capstone_project"
+71-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:34:9-54
+72        android:usesCleartextTraffic="true" >
+72-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:26:9-44
+73        <activity
+73-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:37:9-45:20
+74            android:name="com.example.capstone_project.PermissionActivity"
+74-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:38:13-47
+75            android:exported="true" >
+75-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:39:13-36
+76            <intent-filter>
+76-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:40:13-43:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:41:17-69
+77-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:41:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:42:17-77
+79-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:42:27-74
+80            </intent-filter>
+81        </activity>
+82        <activity android:name="com.example.capstone_project.LoginActivity" />
+82-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:46:9-51
+82-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:46:19-48
+83        <activity android:name="com.example.capstone_project.CarListActivity" />
+83-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:47:9-52
+83-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:47:19-50
+84        <activity android:name="com.example.capstone_project.TestActivity" />
+84-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:48:9-49
+84-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:48:19-47
+85        <activity android:name="com.example.capstone_project.MainActivity" />
+85-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:49:9-50
+85-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:49:19-47
+86        <activity android:name="com.example.capstone_project.SignUpActivity" />
+86-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:50:9-52
+86-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:50:19-49
+87        <activity android:name="com.example.capstone_project.UserListActivity" />
+87-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:51:9-54
+87-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:51:19-51
+88        <activity android:name="com.example.capstone_project.LogDetailActivity" />
+88-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:52:9-55
+88-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:52:19-52
+89        <activity android:name="com.example.capstone_project.LogActivity" />
+89-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:53:9-48
+89-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:53:19-46
+90        <activity android:name="com.example.capstone_project.CarregistActivity" />
+90-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:54:9-54
+90-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:54:19-52
+91        <activity
+91-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:55:9-65:20
+92            android:name="com.example.capstone_project.CarAccessActivity"
+92-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:56:13-46
+93            android:exported="true" >
+93-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:57:13-36
+94            <intent-filter>
+94-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:58:13-61:29
+95                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+95-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:59:17-77
+95-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:59:25-74
+96
+97                <category android:name="android.intent.category.DEFAULT" />
+97-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:60:17-76
+97-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:60:27-73
+98            </intent-filter>
+99
+100            <meta-data
+100-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:62:13-64:57
+101                android:name="android.nfc.action.TECH_DISCOVERED"
+101-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:63:17-66
+102                android:resource="@xml/nfc_tech_list" />
+102-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:64:17-54
+103        </activity>
+104
+105        <!-- Firebase 메시징 기본 알림 채널 메타데이터 -->
+106        <meta-data
+106-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:68:9-70:47
+107            android:name="com.google.firebase.messaging.default_notification_channel_id"
+107-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:69:13-89
+108            android:value="default_channel" />
+108-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:70:13-44
+109        <meta-data
+109-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:71:9-73:37
+110            android:name="firebase_analytics_collection_enabled"
+110-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:72:13-65
+111            android:value="false" />
+111-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:73:13-34
+112
+113        <service
+113-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:75:9-81:19
+114            android:name="com.example.capstone_project.MyFirebaseMessagingService"
+114-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:76:13-55
+115            android:exported="true" >
+115-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:77:13-36
+116            <intent-filter>
+116-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:78:13-80:29
+117                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+117-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:79:17-78
+117-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:79:25-75
+118            </intent-filter>
+119        </service>
+120        <service
+120-->[com.google.firebase:firebase-messaging-ktx:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\c778abf0b0bd3bbbd28f4dbcc5632d57\transformed\firebase-messaging-ktx-24.1.0\AndroidManifest.xml:23:9-29:19
+121            android:name="com.google.firebase.components.ComponentDiscoveryService"
+121-->[com.google.firebase:firebase-messaging-ktx:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\c778abf0b0bd3bbbd28f4dbcc5632d57\transformed\firebase-messaging-ktx-24.1.0\AndroidManifest.xml:24:13-84
+122            android:directBootAware="true"
+122-->[com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+123            android:exported="false" >
+123-->[com.google.firebase:firebase-messaging-ktx:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\c778abf0b0bd3bbbd28f4dbcc5632d57\transformed\firebase-messaging-ktx-24.1.0\AndroidManifest.xml:25:13-37
+124            <meta-data
+124-->[com.google.firebase:firebase-messaging-ktx:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\c778abf0b0bd3bbbd28f4dbcc5632d57\transformed\firebase-messaging-ktx-24.1.0\AndroidManifest.xml:26:13-28:85
+125                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingLegacyRegistrar"
+125-->[com.google.firebase:firebase-messaging-ktx:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\c778abf0b0bd3bbbd28f4dbcc5632d57\transformed\firebase-messaging-ktx-24.1.0\AndroidManifest.xml:27:17-129
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-messaging-ktx:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\c778abf0b0bd3bbbd28f4dbcc5632d57\transformed\firebase-messaging-ktx-24.1.0\AndroidManifest.xml:28:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:57:13-59:85
+128                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+128-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:58:17-122
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:59:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:60:13-62:85
+131                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+131-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:61:17-119
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:62:17-82
+133            <meta-data
+133-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:37:13-39:85
+134                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+134-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:38:17-139
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:39:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+137                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+137-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+140                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+140-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\587c08adf6856d7e44113f059958f8df\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+143                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+143-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\587c08adf6856d7e44113f059958f8df\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\587c08adf6856d7e44113f059958f8df\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+145            <meta-data
+145-->[com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+146                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+146-->[com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+148            <meta-data
+148-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\7f8f4aa5aeef8c1c2e06e98b2ab909e4\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:25:13-27:85
+149                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+149-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\7f8f4aa5aeef8c1c2e06e98b2ab909e4\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:26:17-115
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\7f8f4aa5aeef8c1c2e06e98b2ab909e4\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:27:17-82
+151        </service>
+152
+153        <receiver
+153-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:29:9-40:20
+154            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+154-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:30:13-78
+155            android:exported="true"
+155-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:31:13-36
+156            android:permission="com.google.android.c2dm.permission.SEND" >
+156-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:32:13-73
+157            <intent-filter>
+157-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:33:13-35:29
+158                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+158-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:34:17-81
+158-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:34:25-78
+159            </intent-filter>
+160
+161            <meta-data
+161-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:37:13-39:40
+162                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+162-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:38:17-92
+163                android:value="true" />
+163-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:39:17-37
+164        </receiver>
+165        <!--
+166             FirebaseMessagingService performs security checks at runtime,
+167             but set to not exported to explicitly avoid allowing another app to call it.
+168        -->
+169        <service
+169-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:46:9-53:19
+170            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+170-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:47:13-82
+171            android:directBootAware="true"
+171-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:48:13-43
+172            android:exported="false" >
+172-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:49:13-37
+173            <intent-filter android:priority="-500" >
+173-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:78:13-80:29
+174                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+174-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:79:17-78
+174-->C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:79:25-75
+175            </intent-filter>
+176        </service>
+177
+178        <property
+178-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:30:9-32:61
+179            android:name="android.adservices.AD_SERVICES_CONFIG"
+179-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:31:13-65
+180            android:resource="@xml/ga_ad_services_config" />
+180-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:32:13-58
+181
+182        <receiver
+182-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:29:9-33:20
+183            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+183-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:30:13-85
+184            android:enabled="true"
+184-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:31:13-35
+185            android:exported="false" >
+185-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:32:13-37
+186        </receiver>
+187
+188        <service
+188-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:35:9-38:40
+189            android:name="com.google.android.gms.measurement.AppMeasurementService"
+189-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:36:13-84
+190            android:enabled="true"
+190-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:37:13-35
+191            android:exported="false" />
+191-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:38:13-37
+192        <service
+192-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:39:9-43:72
+193            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+193-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:40:13-87
+194            android:enabled="true"
+194-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:41:13-35
+195            android:exported="false"
+195-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:42:13-37
+196            android:permission="android.permission.BIND_JOB_SERVICE" />
+196-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:43:13-69
+197
+198        <uses-library
+198-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\terra\.gradle\caches\transforms-3\b61a3a4641c5406c9f5d58c03ee08990\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+199            android:name="android.ext.adservices"
+199-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\terra\.gradle\caches\transforms-3\b61a3a4641c5406c9f5d58c03ee08990\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+200            android:required="false" />
+200-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\terra\.gradle\caches\transforms-3\b61a3a4641c5406c9f5d58c03ee08990\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+201
+202        <provider
+202-->[com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+203            android:name="com.google.firebase.provider.FirebaseInitProvider"
+203-->[com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+204            android:authorities="com.example.capstone_project.firebaseinitprovider"
+204-->[com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+205            android:directBootAware="true"
+205-->[com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+206            android:exported="false"
+206-->[com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+207            android:initOrder="100" />
+207-->[com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+208
+209        <activity
+209-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\terra\.gradle\caches\transforms-3\fcccab233f3886a3fb560fc2f7be4093\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+210            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+210-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\terra\.gradle\caches\transforms-3\fcccab233f3886a3fb560fc2f7be4093\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+211            android:exported="false"
+211-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\terra\.gradle\caches\transforms-3\fcccab233f3886a3fb560fc2f7be4093\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+212            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+212-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\terra\.gradle\caches\transforms-3\fcccab233f3886a3fb560fc2f7be4093\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+213
+214        <meta-data
+214-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\terra\.gradle\caches\transforms-3\46aebda8a338f18f5569dfbdf704b425\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+215            android:name="com.google.android.gms.version"
+215-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\terra\.gradle\caches\transforms-3\46aebda8a338f18f5569dfbdf704b425\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+216            android:value="@integer/google_play_services_version" />
+216-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\terra\.gradle\caches\transforms-3\46aebda8a338f18f5569dfbdf704b425\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+217
+218        <provider
+218-->[androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+219            android:name="androidx.startup.InitializationProvider"
+219-->[androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+220            android:authorities="com.example.capstone_project.androidx-startup"
+220-->[androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+221            android:exported="false" >
+221-->[androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+222            <meta-data
+222-->[androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+223                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+223-->[androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+224                android:value="androidx.startup" />
+224-->[androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+225            <meta-data
+225-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\2a10f1921bf3da3e5fa4eee9982bd030\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+226                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+226-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\2a10f1921bf3da3e5fa4eee9982bd030\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+227                android:value="androidx.startup" />
+227-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\2a10f1921bf3da3e5fa4eee9982bd030\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+228            <meta-data
+228-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+229                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+229-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+230                android:value="androidx.startup" />
+230-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+231        </provider>
+232
+233        <service
+233-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+234            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+234-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+235            android:exported="false" >
+235-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+236            <meta-data
+236-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+237                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+237-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+238                android:value="cct" />
+238-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+239        </service>
+240        <service
+240-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+241            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+241-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+242            android:exported="false"
+242-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+243            android:permission="android.permission.BIND_JOB_SERVICE" >
+243-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+244        </service>
+245
+246        <receiver
+246-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+247            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+247-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+248            android:exported="false" />
+248-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+249        <receiver
+249-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+250            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+250-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+251            android:directBootAware="false"
+251-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+252            android:enabled="true"
+252-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+253            android:exported="true"
+253-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+254            android:permission="android.permission.DUMP" >
+254-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+255            <intent-filter>
+255-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+256                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+256-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+256-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+257            </intent-filter>
+258            <intent-filter>
+258-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+259                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+259-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+259-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+260            </intent-filter>
+261            <intent-filter>
+261-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+262                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+262-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+262-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+263            </intent-filter>
+264            <intent-filter>
+264-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+265                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+265-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+265-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+266            </intent-filter>
+267        </receiver>
+268    </application>
+269
+270</manifest>

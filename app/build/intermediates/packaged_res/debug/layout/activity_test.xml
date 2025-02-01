@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4D3D7"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/logo" />
+
+
+        <EditText
+            android:id="@+id/deviceId"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/blank_border"
+            android:hint="device_id"
+            android:inputType="text"
+            android:textSize="18sp"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            tools:ignore="HardcodedText" />
+
+        <!-- 버튼 영역을 위한 레이아웃 -->
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/send"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="전송"
+                android:background="@drawable/button_border"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+            <Button
+                android:id="@+id/bluetoothCheck"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="블루투스"
+                android:background="@drawable/button_border"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center"
+                tools:ignore="ButtonStyle,HardcodedText" />
+        </LinearLayout>
+
+    </LinearLayout>

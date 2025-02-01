@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4D3D7"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/Textview"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textAlignment="center"
+            android:layout_gravity="left"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/textview_border"
+            android:text="사용자 목록"
+            tools:ignore="HardcodedText,RtlCompat,RtlHardcoded" />
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_border"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="-1dp"
+            android:padding="3dp"
+            android:gravity="left"
+            tools:ignore="RtlHardcoded">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                tools:ignore="HardcodedText,RtlCompat,RtlHardcoded" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="이름"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlCompat,RtlHardcoded" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:text="아이디"
+                tools:ignore="HardcodedText,RtlCompat,RtlHardcoded" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                tools:ignore="HardcodedText,RtlCompat,RtlHardcoded" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/UserRecyclerview"
+            android:layout_gravity="left"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/list_border" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left"
+        tools:ignore="RtlHardcoded">
+
+        <!-- 차량 등록 버튼 -->
+        <Button
+            android:id="@+id/rstUser"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:text="사용자 등록"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            tools:ignore="ButtonStyle,HardcodedText" />
+
+        <Button
+            android:id="@+id/deleteUser"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="사용자 제거"
+            android:background="@drawable/button_border"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            tools:ignore="ButtonStyle,HardcodedText" />
+
+        <!-- 로그인 버튼 -->
+        <Button
+            android:id="@+id/details"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:text="상세 정보"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            tools:ignore="ButtonStyle,HardcodedText" />
+
+    </LinearLayout>
+
+</LinearLayout>
