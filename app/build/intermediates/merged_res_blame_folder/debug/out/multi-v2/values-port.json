@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.capstone_project.app-mergeDebugResources-41:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\terra\\.gradle\\caches\\transforms-3\\72607be378ba514d7967e0fbf2f97653\\transformed\\appcompat-1.7.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

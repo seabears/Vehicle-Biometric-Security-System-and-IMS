@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blank_color">#FFFFFFFF</color>
+    <color name="button_color">#C9CECF</color>
+    <color name="invalidaccess">#C3F44336</color>
+    <color name="list_color">#E2E9EB</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="selected_item_color">#ABBFC5</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="validaccess">#CE8EDD91</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">capstone_project</string>
+    <string name="gcm_defaultSenderId" translatable="false">291494933300</string>
+    <string name="google_api_key" translatable="false">AIzaSyAx50WCLGeCQcQ1i_5AoJ8oXdxKmsgX-_A</string>
+    <string name="google_app_id" translatable="false">1:291494933300:android:a748f256b859ebab6e2b61</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAx50WCLGeCQcQ1i_5AoJ8oXdxKmsgX-_A</string>
+    <string name="google_storage_bucket" translatable="false">capstondesignproject.firebasestorage.app</string>
+    <string name="project_id" translatable="false">capstondesignproject</string>
+    <style name="Theme.Capstone_project" parent="Theme.AppCompat.Light.NoActionBar"/>
+</resources>

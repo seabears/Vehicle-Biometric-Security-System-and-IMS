@@ -1,0 +1,6 @@
+com.example.capstone_project.test.app-tracing-1.2.0-0 C:\Users\terra\.gradle\caches\transforms-3\2c199429da5a89e12f4378c9989a5ce1\transformed\tracing-1.2.0\res
+com.example.capstone_project.test.app-core-1.6.1-1 C:\Users\terra\.gradle\caches\transforms-3\752777e941e1312fb7623fd536e1e2f1\transformed\core-1.6.1\res
+com.example.capstone_project.test.app-androidTest-2 C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\build\generated\res\resValues\androidTest\debug
+com.example.capstone_project.test.app-mergeDebugAndroidTestResources-3 C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.capstone_project.test.app-mergeDebugAndroidTestResources-4 C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.capstone_project.test.app-merged_res-5 C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\build\intermediates\merged_res\debugAndroidTest

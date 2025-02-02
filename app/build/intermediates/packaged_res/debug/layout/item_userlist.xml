@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:orientation="horizontal">
+
+    <!-- 순번 -->
+    <TextView
+        android:id="@+id/userNumberTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="1"
+        android:textSize="16sp"
+        android:padding="4dp" />
+
+    <!-- 사용자 이름 -->
+    <TextView
+        android:id="@+id/userNameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="User Name"
+        android:textSize="16sp"
+        android:padding="4dp" />
+
+    <!-- 사용자 ID -->
+    <TextView
+        android:id="@+id/userIdTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="User ID"
+        android:textSize="16sp"
+        android:padding="4dp" />
+
+    <!-- 관리자 여부 -->
+    <TextView
+        android:id="@+id/adminTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text=""
+        android:textSize="16sp"
+        android:padding="4dp" />
+
+</LinearLayout>

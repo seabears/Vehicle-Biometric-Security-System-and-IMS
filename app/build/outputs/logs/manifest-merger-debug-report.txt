@@ -1,0 +1,894 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:2:1-84:12
+MERGED from [com.google.firebase:firebase-messaging-ktx:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\c778abf0b0bd3bbbd28f4dbcc5632d57\transformed\firebase-messaging-ktx-24.1.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\terra\.gradle\caches\transforms-3\508240c1e8796bd0d77584d227377ed9\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:17:1-66:12
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9ed42df9d7fbbc2e1db13f58a36647e1\transformed\firebase-analytics-22.1.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:17:1-43:12
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\587c08adf6856d7e44113f059958f8df\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\a53dc2b63ab276bae9b8dc2d52bee8f5\transformed\play-services-measurement-sdk-22.1.2\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\20d145d91e5cc586b1601556c7dc3ebd\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\terra\.gradle\caches\transforms-3\06c6bcc75fb14b9a1e125ba2a43bfcb8\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\terra\.gradle\caches\transforms-3\b61a3a4641c5406c9f5d58c03ee08990\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\terra\.gradle\caches\transforms-3\8fa3da99e307d3fa0aaa33a39f129c38\transformed\constraintlayout-2.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.biometric:biometric:1.4.0-alpha02] C:\Users\terra\.gradle\caches\transforms-3\5c2e3cb8a7cb4330b15a10f39d40bac1\transformed\biometric-1.4.0-alpha02\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\terra\.gradle\caches\transforms-3\80f6b13261121a10e6b8ee17323694cc\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\terra\.gradle\caches\transforms-3\72607be378ba514d7967e0fbf2f97653\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\terra\.gradle\caches\transforms-3\14752da4fce6e09d50990c525beae62d\transformed\glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\8897ddbf2d78f08c3a0a77995a159f68\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\terra\.gradle\caches\transforms-3\9b837a7b52b4ed01f95a439a230dee2f\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\terra\.gradle\caches\transforms-3\78ecd2816bb0a5628fc710f32f7eb26d\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\terra\.gradle\caches\transforms-3\3b5bb8d6e96329bd51b7f487b639a468\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\terra\.gradle\caches\transforms-3\1d71911098392c7a5925179d436eff48\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\b518905ac5d3818d2ea6cf387ead9886\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\94c587115a305d61bbf3c481a0b9731c\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\f3bc221f939ab681d14ba7ae6dc54d64\transformed\play-services-measurement-base-22.1.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\terra\.gradle\caches\transforms-3\c00485fc87b1739460c2ac27058ee0ec\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\terra\.gradle\caches\transforms-3\fcccab233f3886a3fb560fc2f7be4093\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\a50c667d2a6ec69400f67abf1d0627c1\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\terra\.gradle\caches\transforms-3\46aebda8a338f18f5569dfbdf704b425\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\terra\.gradle\caches\transforms-3\0bdc539b150b8e899f914c601912340b\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\terra\.gradle\caches\transforms-3\baf6d2756799e5a7dbd3eb964e5313ee\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\444f65c67c50b38199f09f636f8519b6\transformed\core-ktx-1.15.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\e4f1003459e598e7d715db409ad65790\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\terra\.gradle\caches\transforms-3\20d494d315753679c5d45e2777dd6f0c\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\terra\.gradle\caches\transforms-3\99f011eef30947355a44abacc9200ea0\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\terra\.gradle\caches\transforms-3\99d5e43378c7e8155a61f1ae2abdcb54\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\b3d901db5655e8605ad66238fae3321a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\terra\.gradle\caches\transforms-3\a39234a94f5bb28ca9b0365e65bc7cc4\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\terra\.gradle\caches\transforms-3\93f5eb5a57b1446d7596cfd313f4811d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\1047bf645845d54bd1a1ae2c895e10c9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\a93e556f965b8c28f2d707d583f251e4\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\c838b817a372828f2bdfb3ab871e148a\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\terra\.gradle\caches\transforms-3\1b622c456d90279b40d88b3f4f10faf8\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\terra\.gradle\caches\transforms-3\a9a640d010fcc7a1ce6aa1671bbef783\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\1bc525a95d5495aa9cb437312c0e31e5\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\ecbd81df3b6a229225cc60617b5a9818\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\2a10f1921bf3da3e5fa4eee9982bd030\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\b35cab9f752dc8de84f38aa4c3f4be6a\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\6b3edb82e72f4da2d592cec4a1cb33c2\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\1222294cb5d5d8c16ad7a930e8c49a59\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\terra\.gradle\caches\transforms-3\2dff9feaff37854dfbaec1df9e79b294\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] C:\Users\terra\.gradle\caches\transforms-3\2c543c182979a0abd903f4e8ed13dd72\transformed\security-crypto-1.1.0-alpha03\AndroidManifest.xml:17:1-24:12
+MERGED from [org.osmdroid:osmdroid-mapsforge:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\076e222ad23dfa49fc5c88e177968bc7\transformed\osmdroid-mapsforge-6.1.10\AndroidManifest.xml:2:1-12:12
+MERGED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:2:1-29:12
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\7f8f4aa5aeef8c1c2e06e98b2ab909e4\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:15:1-31:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\6f696886a5f2d85d5fd6f76a7ae06a75\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\58c54cee5053b8ede7594df6be8abd5c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\f91e10ca7d1907af475b1b042a1269fa\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\terra\.gradle\caches\transforms-3\43969055bc2b423a55e670f9561325d7\transformed\gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\terra\.gradle\caches\transforms-3\752c6eef4f2e977dba4152f5951aa9f6\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\09873cedd59b867f4fb12b568cf5dc7f\transformed\firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\3f887d56817c031216d919fe892fd26f\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\terra\.gradle\caches\transforms-3\c122fe320b58dab114a143acbf0523f3\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\terra\.gradle\caches\transforms-3\2c199429da5a89e12f4378c9989a5ce1\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\terra\.gradle\caches\transforms-3\13629b5b604bff20bb3974162edbdc92\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\terra\.gradle\caches\transforms-3\f2ec2c237dd3d1d7fa09551f85016dcf\transformed\transport-api-3.1.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\terra\.gradle\caches\transforms-3\900fec8e0fe98b3587ef45e2b04a2d7f\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\2ca1c9c5b87a66bfa889c61f6ca47511\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\4e0798fd7a3cbf881f44b69740c2ae75\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\03a83a6cd70709e3432c0cf3c42f4649\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\terra\.gradle\caches\transforms-3\33e547781dbd0eb3734603f99e4f02f4\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:5:5-77
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:23:5-77
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:5:22-74
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.BLUETOOTH_ADVERTISE
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:9:5-78
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:9:22-75
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\20d145d91e5cc586b1601556c7dc3ebd\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\20d145d91e5cc586b1601556c7dc3ebd\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\terra\.gradle\caches\transforms-3\3b5bb8d6e96329bd51b7f487b639a468\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\terra\.gradle\caches\transforms-3\3b5bb8d6e96329bd51b7f487b639a468\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\94c587115a305d61bbf3c481a0b9731c\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\94c587115a305d61bbf3c481a0b9731c\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:11:5-72
+MERGED from [androidx.biometric:biometric:1.4.0-alpha02] C:\Users\terra\.gradle\caches\transforms-3\5c2e3cb8a7cb4330b15a10f39d40bac1\transformed\biometric-1.4.0-alpha02\AndroidManifest.xml:22:5-72
+MERGED from [androidx.biometric:biometric:1.4.0-alpha02] C:\Users\terra\.gradle\caches\transforms-3\5c2e3cb8a7cb4330b15a10f39d40bac1\transformed\biometric-1.4.0-alpha02\AndroidManifest.xml:22:5-72
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:11:22-69
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:13:5-73
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:13:22-70
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:14:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:15:5-74
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:15:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:17:22-76
+application
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:24:5-82:19
+INJECTED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:24:5-82:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\c778abf0b0bd3bbbd28f4dbcc5632d57\transformed\firebase-messaging-ktx-24.1.0\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\c778abf0b0bd3bbbd28f4dbcc5632d57\transformed\firebase-messaging-ktx-24.1.0\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\terra\.gradle\caches\transforms-3\508240c1e8796bd0d77584d227377ed9\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\terra\.gradle\caches\transforms-3\508240c1e8796bd0d77584d227377ed9\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9ed42df9d7fbbc2e1db13f58a36647e1\transformed\firebase-analytics-22.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9ed42df9d7fbbc2e1db13f58a36647e1\transformed\firebase-analytics-22.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\587c08adf6856d7e44113f059958f8df\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\587c08adf6856d7e44113f059958f8df\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\a53dc2b63ab276bae9b8dc2d52bee8f5\transformed\play-services-measurement-sdk-22.1.2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\a53dc2b63ab276bae9b8dc2d52bee8f5\transformed\play-services-measurement-sdk-22.1.2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\20d145d91e5cc586b1601556c7dc3ebd\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\20d145d91e5cc586b1601556c7dc3ebd\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:29:5-30:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\terra\.gradle\caches\transforms-3\b61a3a4641c5406c9f5d58c03ee08990\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\terra\.gradle\caches\transforms-3\b61a3a4641c5406c9f5d58c03ee08990\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\terra\.gradle\caches\transforms-3\8fa3da99e307d3fa0aaa33a39f129c38\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\terra\.gradle\caches\transforms-3\8fa3da99e307d3fa0aaa33a39f129c38\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\terra\.gradle\caches\transforms-3\14752da4fce6e09d50990c525beae62d\transformed\glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\terra\.gradle\caches\transforms-3\14752da4fce6e09d50990c525beae62d\transformed\glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\terra\.gradle\caches\transforms-3\9b837a7b52b4ed01f95a439a230dee2f\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\terra\.gradle\caches\transforms-3\9b837a7b52b4ed01f95a439a230dee2f\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\terra\.gradle\caches\transforms-3\78ecd2816bb0a5628fc710f32f7eb26d\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\terra\.gradle\caches\transforms-3\78ecd2816bb0a5628fc710f32f7eb26d\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\terra\.gradle\caches\transforms-3\1d71911098392c7a5925179d436eff48\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\terra\.gradle\caches\transforms-3\1d71911098392c7a5925179d436eff48\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\b518905ac5d3818d2ea6cf387ead9886\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\b518905ac5d3818d2ea6cf387ead9886\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\f3bc221f939ab681d14ba7ae6dc54d64\transformed\play-services-measurement-base-22.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\f3bc221f939ab681d14ba7ae6dc54d64\transformed\play-services-measurement-base-22.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\terra\.gradle\caches\transforms-3\fcccab233f3886a3fb560fc2f7be4093\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\terra\.gradle\caches\transforms-3\fcccab233f3886a3fb560fc2f7be4093\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\a50c667d2a6ec69400f67abf1d0627c1\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\a50c667d2a6ec69400f67abf1d0627c1\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\terra\.gradle\caches\transforms-3\46aebda8a338f18f5569dfbdf704b425\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\terra\.gradle\caches\transforms-3\46aebda8a338f18f5569dfbdf704b425\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\2a10f1921bf3da3e5fa4eee9982bd030\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\2a10f1921bf3da3e5fa4eee9982bd030\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\7f8f4aa5aeef8c1c2e06e98b2ab909e4\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\7f8f4aa5aeef8c1c2e06e98b2ab909e4\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\terra\.gradle\caches\transforms-3\43969055bc2b423a55e670f9561325d7\transformed\gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\terra\.gradle\caches\transforms-3\43969055bc2b423a55e670f9561325d7\transformed\gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\terra\.gradle\caches\transforms-3\c122fe320b58dab114a143acbf0523f3\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\terra\.gradle\caches\transforms-3\c122fe320b58dab114a143acbf0523f3\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\terra\.gradle\caches\transforms-3\13629b5b604bff20bb3974162edbdc92\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\terra\.gradle\caches\transforms-3\13629b5b604bff20bb3974162edbdc92\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:33:9-35
+	android:label
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:31:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:29:9-54
+	android:roundIcon
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:32:9-54
+	tools:targetApi
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:35:9-29
+	android:icon
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:30:9-42
+	android:allowBackup
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:27:9-35
+	android:theme
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:34:9-54
+	android:networkSecurityConfig
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:25:9-69
+	android:dataExtractionRules
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:28:9-65
+	android:usesCleartextTraffic
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:26:9-44
+activity#com.example.capstone_project.PermissionActivity
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:37:9-45:20
+	android:exported
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:38:13-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:40:13-43:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:42:17-77
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:42:27-74
+activity#com.example.capstone_project.LoginActivity
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:46:9-51
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:46:19-48
+activity#com.example.capstone_project.CarListActivity
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:47:9-52
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:47:19-50
+activity#com.example.capstone_project.TestActivity
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:48:9-49
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:48:19-47
+activity#com.example.capstone_project.MainActivity
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:49:9-50
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:49:19-47
+activity#com.example.capstone_project.SignUpActivity
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:50:9-52
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:50:19-49
+activity#com.example.capstone_project.UserListActivity
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:51:9-54
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:51:19-51
+activity#com.example.capstone_project.LogDetailActivity
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:52:9-55
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:52:19-52
+activity#com.example.capstone_project.LogActivity
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:53:9-48
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:53:19-46
+activity#com.example.capstone_project.CarregistActivity
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:54:9-54
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:54:19-52
+activity#com.example.capstone_project.CarAccessActivity
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:55:9-65:20
+	android:exported
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:57:13-36
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:56:13-46
+intent-filter#action:name:android.nfc.action.TECH_DISCOVERED+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:58:13-61:29
+action#android.nfc.action.TECH_DISCOVERED
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:59:17-77
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:59:25-74
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:60:17-76
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:60:27-73
+meta-data#android.nfc.action.TECH_DISCOVERED
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:62:13-64:57
+	android:resource
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:64:17-54
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:63:17-66
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:68:9-70:47
+	android:value
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:70:13-44
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:69:13-89
+meta-data#firebase_analytics_collection_enabled
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:71:9-73:37
+	android:value
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:73:13-34
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:72:13-65
+service#com.example.capstone_project.MyFirebaseMessagingService
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:75:9-81:19
+	android:exported
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:77:13-36
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:76:13-55
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:78:13-80:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:79:17-78
+	android:name
+		ADDED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml:79:25-75
+uses-sdk
+INJECTED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-messaging-ktx:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\c778abf0b0bd3bbbd28f4dbcc5632d57\transformed\firebase-messaging-ktx-24.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-ktx:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\c778abf0b0bd3bbbd28f4dbcc5632d57\transformed\firebase-messaging-ktx-24.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\terra\.gradle\caches\transforms-3\508240c1e8796bd0d77584d227377ed9\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\terra\.gradle\caches\transforms-3\508240c1e8796bd0d77584d227377ed9\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9ed42df9d7fbbc2e1db13f58a36647e1\transformed\firebase-analytics-22.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9ed42df9d7fbbc2e1db13f58a36647e1\transformed\firebase-analytics-22.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\587c08adf6856d7e44113f059958f8df\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\587c08adf6856d7e44113f059958f8df\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\a53dc2b63ab276bae9b8dc2d52bee8f5\transformed\play-services-measurement-sdk-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\a53dc2b63ab276bae9b8dc2d52bee8f5\transformed\play-services-measurement-sdk-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\20d145d91e5cc586b1601556c7dc3ebd\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\20d145d91e5cc586b1601556c7dc3ebd\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\terra\.gradle\caches\transforms-3\06c6bcc75fb14b9a1e125ba2a43bfcb8\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\terra\.gradle\caches\transforms-3\06c6bcc75fb14b9a1e125ba2a43bfcb8\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\terra\.gradle\caches\transforms-3\b61a3a4641c5406c9f5d58c03ee08990\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\terra\.gradle\caches\transforms-3\b61a3a4641c5406c9f5d58c03ee08990\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\terra\.gradle\caches\transforms-3\8fa3da99e307d3fa0aaa33a39f129c38\transformed\constraintlayout-2.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\terra\.gradle\caches\transforms-3\8fa3da99e307d3fa0aaa33a39f129c38\transformed\constraintlayout-2.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.biometric:biometric:1.4.0-alpha02] C:\Users\terra\.gradle\caches\transforms-3\5c2e3cb8a7cb4330b15a10f39d40bac1\transformed\biometric-1.4.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.biometric:biometric:1.4.0-alpha02] C:\Users\terra\.gradle\caches\transforms-3\5c2e3cb8a7cb4330b15a10f39d40bac1\transformed\biometric-1.4.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\terra\.gradle\caches\transforms-3\80f6b13261121a10e6b8ee17323694cc\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\terra\.gradle\caches\transforms-3\80f6b13261121a10e6b8ee17323694cc\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\terra\.gradle\caches\transforms-3\72607be378ba514d7967e0fbf2f97653\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\terra\.gradle\caches\transforms-3\72607be378ba514d7967e0fbf2f97653\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\terra\.gradle\caches\transforms-3\14752da4fce6e09d50990c525beae62d\transformed\glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\terra\.gradle\caches\transforms-3\14752da4fce6e09d50990c525beae62d\transformed\glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\8897ddbf2d78f08c3a0a77995a159f68\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\8897ddbf2d78f08c3a0a77995a159f68\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\terra\.gradle\caches\transforms-3\9b837a7b52b4ed01f95a439a230dee2f\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\terra\.gradle\caches\transforms-3\9b837a7b52b4ed01f95a439a230dee2f\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\terra\.gradle\caches\transforms-3\78ecd2816bb0a5628fc710f32f7eb26d\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\terra\.gradle\caches\transforms-3\78ecd2816bb0a5628fc710f32f7eb26d\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\terra\.gradle\caches\transforms-3\3b5bb8d6e96329bd51b7f487b639a468\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\terra\.gradle\caches\transforms-3\3b5bb8d6e96329bd51b7f487b639a468\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\terra\.gradle\caches\transforms-3\1d71911098392c7a5925179d436eff48\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\terra\.gradle\caches\transforms-3\1d71911098392c7a5925179d436eff48\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\b518905ac5d3818d2ea6cf387ead9886\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\b518905ac5d3818d2ea6cf387ead9886\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\94c587115a305d61bbf3c481a0b9731c\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\94c587115a305d61bbf3c481a0b9731c\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\f3bc221f939ab681d14ba7ae6dc54d64\transformed\play-services-measurement-base-22.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\f3bc221f939ab681d14ba7ae6dc54d64\transformed\play-services-measurement-base-22.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\terra\.gradle\caches\transforms-3\c00485fc87b1739460c2ac27058ee0ec\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\terra\.gradle\caches\transforms-3\c00485fc87b1739460c2ac27058ee0ec\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\terra\.gradle\caches\transforms-3\fcccab233f3886a3fb560fc2f7be4093\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\terra\.gradle\caches\transforms-3\fcccab233f3886a3fb560fc2f7be4093\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\a50c667d2a6ec69400f67abf1d0627c1\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\a50c667d2a6ec69400f67abf1d0627c1\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\terra\.gradle\caches\transforms-3\46aebda8a338f18f5569dfbdf704b425\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\terra\.gradle\caches\transforms-3\46aebda8a338f18f5569dfbdf704b425\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\terra\.gradle\caches\transforms-3\0bdc539b150b8e899f914c601912340b\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\terra\.gradle\caches\transforms-3\0bdc539b150b8e899f914c601912340b\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\terra\.gradle\caches\transforms-3\baf6d2756799e5a7dbd3eb964e5313ee\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\terra\.gradle\caches\transforms-3\baf6d2756799e5a7dbd3eb964e5313ee\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\444f65c67c50b38199f09f636f8519b6\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\444f65c67c50b38199f09f636f8519b6\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\e4f1003459e598e7d715db409ad65790\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\e4f1003459e598e7d715db409ad65790\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\terra\.gradle\caches\transforms-3\20d494d315753679c5d45e2777dd6f0c\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\terra\.gradle\caches\transforms-3\20d494d315753679c5d45e2777dd6f0c\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\terra\.gradle\caches\transforms-3\99f011eef30947355a44abacc9200ea0\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\terra\.gradle\caches\transforms-3\99f011eef30947355a44abacc9200ea0\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\terra\.gradle\caches\transforms-3\99d5e43378c7e8155a61f1ae2abdcb54\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\terra\.gradle\caches\transforms-3\99d5e43378c7e8155a61f1ae2abdcb54\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\b3d901db5655e8605ad66238fae3321a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\b3d901db5655e8605ad66238fae3321a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\terra\.gradle\caches\transforms-3\a39234a94f5bb28ca9b0365e65bc7cc4\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\terra\.gradle\caches\transforms-3\a39234a94f5bb28ca9b0365e65bc7cc4\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\terra\.gradle\caches\transforms-3\93f5eb5a57b1446d7596cfd313f4811d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\terra\.gradle\caches\transforms-3\93f5eb5a57b1446d7596cfd313f4811d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\1047bf645845d54bd1a1ae2c895e10c9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\1047bf645845d54bd1a1ae2c895e10c9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\a93e556f965b8c28f2d707d583f251e4\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\a93e556f965b8c28f2d707d583f251e4\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\c838b817a372828f2bdfb3ab871e148a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\c838b817a372828f2bdfb3ab871e148a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\terra\.gradle\caches\transforms-3\1b622c456d90279b40d88b3f4f10faf8\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\terra\.gradle\caches\transforms-3\1b622c456d90279b40d88b3f4f10faf8\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\terra\.gradle\caches\transforms-3\a9a640d010fcc7a1ce6aa1671bbef783\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\terra\.gradle\caches\transforms-3\a9a640d010fcc7a1ce6aa1671bbef783\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\1bc525a95d5495aa9cb437312c0e31e5\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\1bc525a95d5495aa9cb437312c0e31e5\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\ecbd81df3b6a229225cc60617b5a9818\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\ecbd81df3b6a229225cc60617b5a9818\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\2a10f1921bf3da3e5fa4eee9982bd030\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\2a10f1921bf3da3e5fa4eee9982bd030\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\b35cab9f752dc8de84f38aa4c3f4be6a\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\b35cab9f752dc8de84f38aa4c3f4be6a\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\6b3edb82e72f4da2d592cec4a1cb33c2\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\6b3edb82e72f4da2d592cec4a1cb33c2\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\1222294cb5d5d8c16ad7a930e8c49a59\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\1222294cb5d5d8c16ad7a930e8c49a59\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\terra\.gradle\caches\transforms-3\2dff9feaff37854dfbaec1df9e79b294\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\terra\.gradle\caches\transforms-3\2dff9feaff37854dfbaec1df9e79b294\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] C:\Users\terra\.gradle\caches\transforms-3\2c543c182979a0abd903f4e8ed13dd72\transformed\security-crypto-1.1.0-alpha03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] C:\Users\terra\.gradle\caches\transforms-3\2c543c182979a0abd903f4e8ed13dd72\transformed\security-crypto-1.1.0-alpha03\AndroidManifest.xml:20:5-22:41
+MERGED from [org.osmdroid:osmdroid-mapsforge:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\076e222ad23dfa49fc5c88e177968bc7\transformed\osmdroid-mapsforge-6.1.10\AndroidManifest.xml:8:5-10:41
+MERGED from [org.osmdroid:osmdroid-mapsforge:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\076e222ad23dfa49fc5c88e177968bc7\transformed\osmdroid-mapsforge-6.1.10\AndroidManifest.xml:8:5-10:41
+MERGED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:7:5-9:41
+MERGED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\7f8f4aa5aeef8c1c2e06e98b2ab909e4\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\7f8f4aa5aeef8c1c2e06e98b2ab909e4\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\6f696886a5f2d85d5fd6f76a7ae06a75\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\6f696886a5f2d85d5fd6f76a7ae06a75\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\58c54cee5053b8ede7594df6be8abd5c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\58c54cee5053b8ede7594df6be8abd5c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\f91e10ca7d1907af475b1b042a1269fa\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\f91e10ca7d1907af475b1b042a1269fa\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\terra\.gradle\caches\transforms-3\43969055bc2b423a55e670f9561325d7\transformed\gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\terra\.gradle\caches\transforms-3\43969055bc2b423a55e670f9561325d7\transformed\gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\terra\.gradle\caches\transforms-3\752c6eef4f2e977dba4152f5951aa9f6\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\terra\.gradle\caches\transforms-3\752c6eef4f2e977dba4152f5951aa9f6\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\09873cedd59b867f4fb12b568cf5dc7f\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\09873cedd59b867f4fb12b568cf5dc7f\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\3f887d56817c031216d919fe892fd26f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\3f887d56817c031216d919fe892fd26f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\terra\.gradle\caches\transforms-3\c122fe320b58dab114a143acbf0523f3\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\terra\.gradle\caches\transforms-3\c122fe320b58dab114a143acbf0523f3\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\terra\.gradle\caches\transforms-3\2c199429da5a89e12f4378c9989a5ce1\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\terra\.gradle\caches\transforms-3\2c199429da5a89e12f4378c9989a5ce1\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\terra\.gradle\caches\transforms-3\13629b5b604bff20bb3974162edbdc92\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\terra\.gradle\caches\transforms-3\13629b5b604bff20bb3974162edbdc92\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\terra\.gradle\caches\transforms-3\f2ec2c237dd3d1d7fa09551f85016dcf\transformed\transport-api-3.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\terra\.gradle\caches\transforms-3\f2ec2c237dd3d1d7fa09551f85016dcf\transformed\transport-api-3.1.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\terra\.gradle\caches\transforms-3\900fec8e0fe98b3587ef45e2b04a2d7f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\terra\.gradle\caches\transforms-3\900fec8e0fe98b3587ef45e2b04a2d7f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\2ca1c9c5b87a66bfa889c61f6ca47511\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\2ca1c9c5b87a66bfa889c61f6ca47511\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\4e0798fd7a3cbf881f44b69740c2ae75\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\4e0798fd7a3cbf881f44b69740c2ae75\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\03a83a6cd70709e3432c0cf3c42f4649\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\terra\.gradle\caches\transforms-3\03a83a6cd70709e3432c0cf3c42f4649\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\terra\.gradle\caches\transforms-3\33e547781dbd0eb3734603f99e4f02f4\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\terra\.gradle\caches\transforms-3\33e547781dbd0eb3734603f99e4f02f4\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\terra\AndroidStudioProjects\capstone_project_11\app\src\main\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging-ktx:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\c778abf0b0bd3bbbd28f4dbcc5632d57\transformed\firebase-messaging-ktx-24.1.0\AndroidManifest.xml:23:9-29:19
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\587c08adf6856d7e44113f059958f8df\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\587c08adf6856d7e44113f059958f8df\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\7f8f4aa5aeef8c1c2e06e98b2ab909e4\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:22:9-28:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\7f8f4aa5aeef8c1c2e06e98b2ab909e4\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:22:9-28:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging-ktx:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\c778abf0b0bd3bbbd28f4dbcc5632d57\transformed\firebase-messaging-ktx-24.1.0\AndroidManifest.xml:25:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging-ktx:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\c778abf0b0bd3bbbd28f4dbcc5632d57\transformed\firebase-messaging-ktx-24.1.0\AndroidManifest.xml:24:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingLegacyRegistrar
+ADDED from [com.google.firebase:firebase-messaging-ktx:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\c778abf0b0bd3bbbd28f4dbcc5632d57\transformed\firebase-messaging-ktx-24.1.0\AndroidManifest.xml:26:13-28:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging-ktx:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\c778abf0b0bd3bbbd28f4dbcc5632d57\transformed\firebase-messaging-ktx-24.1.0\AndroidManifest.xml:28:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging-ktx:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\c778abf0b0bd3bbbd28f4dbcc5632d57\transformed\firebase-messaging-ktx-24.1.0\AndroidManifest.xml:27:17-129
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\20d145d91e5cc586b1601556c7dc3ebd\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\20d145d91e5cc586b1601556c7dc3ebd\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\terra\.gradle\caches\transforms-3\3b5bb8d6e96329bd51b7f487b639a468\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\terra\.gradle\caches\transforms-3\3b5bb8d6e96329bd51b7f487b639a468\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\94c587115a305d61bbf3c481a0b9731c\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\94c587115a305d61bbf3c481a0b9731c\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\20d145d91e5cc586b1601556c7dc3ebd\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\20d145d91e5cc586b1601556c7dc3ebd\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\terra\.gradle\caches\transforms-3\3b5bb8d6e96329bd51b7f487b639a468\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\terra\.gradle\caches\transforms-3\3b5bb8d6e96329bd51b7f487b639a468\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\94c587115a305d61bbf3c481a0b9731c\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\94c587115a305d61bbf3c481a0b9731c\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\terra\.gradle\caches\transforms-3\3b5bb8d6e96329bd51b7f487b639a468\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\terra\.gradle\caches\transforms-3\3b5bb8d6e96329bd51b7f487b639a468\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:26:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:29:9-40:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:32:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:30:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:33:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:34:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:34:25-78
+meta-data#com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED
+ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:37:13-39:40
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:39:17-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:38:17-92
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:46:9-53:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:49:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:48:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:47:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:57:13-59:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:58:17-122
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:60:13-62:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:62:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\terra\.gradle\caches\transforms-3\a1dcd4cee8327792ab0f4e75f79b5315\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:61:17-119
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\20d145d91e5cc586b1601556c7dc3ebd\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\20d145d91e5cc586b1601556c7dc3ebd\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\b518905ac5d3818d2ea6cf387ead9886\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\b518905ac5d3818d2ea6cf387ead9886\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\94c587115a305d61bbf3c481a0b9731c\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\94c587115a305d61bbf3c481a0b9731c\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\94c587115a305d61bbf3c481a0b9731c\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\94c587115a305d61bbf3c481a0b9731c\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\94c587115a305d61bbf3c481a0b9731c\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\94c587115a305d61bbf3c481a0b9731c\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:27:22-79
+property
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:30:9-32:61
+	android:resource
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:31:13-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:37:13-39:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:39:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\4ab84806ef154908e8cc7a084c4651a7\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:38:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\terra\.gradle\caches\transforms-3\2392f1deed1b667d7cb32a6686313aea\transformed\firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\587c08adf6856d7e44113f059958f8df\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\587c08adf6856d7e44113f059958f8df\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\587c08adf6856d7e44113f059958f8df\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\20d145d91e5cc586b1601556c7dc3ebd\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\20d145d91e5cc586b1601556c7dc3ebd\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\terra\.gradle\caches\transforms-3\9b074f4784a4b934dc6a367604767875\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:40:13-87
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\terra\.gradle\caches\transforms-3\b61a3a4641c5406c9f5d58c03ee08990\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\terra\.gradle\caches\transforms-3\b61a3a4641c5406c9f5d58c03ee08990\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\terra\.gradle\caches\transforms-3\b61a3a4641c5406c9f5d58c03ee08990\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.4.0-alpha02] C:\Users\terra\.gradle\caches\transforms-3\5c2e3cb8a7cb4330b15a10f39d40bac1\transformed\biometric-1.4.0-alpha02\AndroidManifest.xml:25:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.4.0-alpha02] C:\Users\terra\.gradle\caches\transforms-3\5c2e3cb8a7cb4330b15a10f39d40bac1\transformed\biometric-1.4.0-alpha02\AndroidManifest.xml:25:22-71
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\terra\.gradle\caches\transforms-3\814f5d5a5aa61e66ff5615aaf07260e1\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\terra\.gradle\caches\transforms-3\fcccab233f3886a3fb560fc2f7be4093\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\terra\.gradle\caches\transforms-3\fcccab233f3886a3fb560fc2f7be4093\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\terra\.gradle\caches\transforms-3\fcccab233f3886a3fb560fc2f7be4093\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\terra\.gradle\caches\transforms-3\fcccab233f3886a3fb560fc2f7be4093\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\terra\.gradle\caches\transforms-3\46aebda8a338f18f5569dfbdf704b425\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\terra\.gradle\caches\transforms-3\46aebda8a338f18f5569dfbdf704b425\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\terra\.gradle\caches\transforms-3\46aebda8a338f18f5569dfbdf704b425\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\2a10f1921bf3da3e5fa4eee9982bd030\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\2a10f1921bf3da3e5fa4eee9982bd030\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\terra\.gradle\caches\transforms-3\c122fe320b58dab114a143acbf0523f3\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\terra\.gradle\caches\transforms-3\c122fe320b58dab114a143acbf0523f3\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-3\7e7efbd98516aa9e5b4f03812fd8f40e\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+permission#com.example.capstone_project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.capstone_project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\terra\.gradle\caches\transforms-3\25183ab31114c53429cf3105eccf513f\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\2a10f1921bf3da3e5fa4eee9982bd030\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\2a10f1921bf3da3e5fa4eee9982bd030\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\terra\.gradle\caches\transforms-3\2a10f1921bf3da3e5fa4eee9982bd030\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+supports-screens
+ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:11:5-14:40
+	android:largeScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:13:9-36
+	android:normalScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:14:9-37
+	android:anyDensity
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:12:9-34
+uses-feature#android.hardware.location.network
+ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:17:9-57
+uses-feature#android.hardware.location.gps
+ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:19:5-21:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:20:9-53
+uses-feature#android.hardware.telephony
+ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:23:9-50
+uses-feature#android.hardware.wifi
+ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\terra\.gradle\caches\transforms-3\b925af177cff0846980c796a158bb6ed\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:26:9-45
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\7f8f4aa5aeef8c1c2e06e98b2ab909e4\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\7f8f4aa5aeef8c1c2e06e98b2ab909e4\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\terra\.gradle\caches\transforms-3\7f8f4aa5aeef8c1c2e06e98b2ab909e4\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:26:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\498e1d39d75c5c6a40e227ce537c375a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\terra\.gradle\caches\transforms-3\d8a2b036e3f468546ad25c1e8ee5399d\transformed\transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\terra\.gradle\caches\transforms-3\1105ec8881b97b636ba08c6cb072f576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92

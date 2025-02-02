@@ -1,0 +1,3 @@
+com.example.capstone_project.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

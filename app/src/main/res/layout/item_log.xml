@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/logUserTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:padding="4dp"
+        android:text="User"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/logTimestampTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:padding="4dp"
+        android:text="Timestamp"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/warningImageView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:src="@drawable/warning"
+         />
+
+    <TextView
+        android:id="@+id/normal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:padding="4dp" />
+</LinearLayout>
