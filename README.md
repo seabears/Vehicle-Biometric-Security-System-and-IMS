@@ -1,7 +1,7 @@
 # Vehicle-Biometric-Security-System-and-IMS  
 
 ## 전체 시스템
-<img src="이미지 정리/실제 구성.png" alt="대표 이미지" width="400">
+<img src="이미지 정리/실제 구성.png" alt="대표 이미지" width="600">
 
 ## 인증
 <img src="이미지 정리/인증.png" alt="대표 이미지" width="400">
