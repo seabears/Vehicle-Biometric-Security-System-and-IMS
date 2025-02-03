@@ -1,4 +1,6 @@
 # Vehicle-Biometric-Security-System-and-IMS  
+(RaspberryPi와 안드로이드앱 개발)  
+지문인증과 얼굴인증의 생체인증과 자동으로 설정되는 운전자세 메모리 시스템  
 
 ## 전체 시스템
 <img src="이미지 정리/실제 구성.png" alt="대표 이미지" width="600">
